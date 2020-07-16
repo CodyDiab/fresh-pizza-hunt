@@ -1,0 +1,64 @@
+/*Header Styles*/ 
+*{ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: rgb(246, 244, 243);
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    border-radius: 15%;
+    
+    
+}
+.page-title{
+    
+    font-weight: bolder;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+#timer{
+    align-self: flex-end;
+    overflow: hidden;
+}
+img{
+    max-width: 15vw;
+    max-height: 10vw;
+    border-radius: 50%;
+}
+
+
+
+/*Quiz sheet styles*/
+main{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3vw;
+    text-align: center;
+}
+.choice{
+    font-style: italic;
+}
+.choice:hover{
+    background-color: rgb(126, 30, 30,.4);
+
+}
+#start-button-container{
+    display: flex;
+    align-items: center;
+}
+.start-button{
+    border-radius: 30%;
+    border: 20px;
+    background-color: rgb(126, 30, 30,.4);
+    margin:auto;
+}

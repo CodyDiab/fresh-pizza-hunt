@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Quiz Sphinx</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        
+        <div class="page-title">
+        <h1>Java Script Sphinx</h1>
+        <h4>Timed Quiz Chalenge <span id = "timer"></span></h4>
+        </div>
+        <img src="./assets/SphynxImage.png" alt="Spynx Icon">
+        
+    </header>
+    <main id="quiz-content">
+        <div id="question"></div>
+        <div id= "choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')">
+            </div>
+            
+            <div class="choice" id="B" onclick="checkAnswer('B')" >
+            </div>
+            
+            <div class="choice" id="C" onclick="checkAnswer('C')">
+            </div>
+        
+        </div>
+    </main>
+    <div id="start-button-container">
+        <button class="start-button" onclick="start(); timeCount()">Begin Quiz</button>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

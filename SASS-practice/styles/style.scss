@@ -1,0 +1,22 @@
+
+$primaryBtn : rgb(167, 106, 224);
+$textColor: rgba(65, 18, 18, 0.787); 
+$rainbow:  linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+
+@import "./header";
+
+
+
+
+.contact button{
+    background: $primaryBtn;
+    @include flexCenter(row,teal);
+}
+
+.rainbow{
+ background: $rainbow;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  line-height: 60px;
+}
